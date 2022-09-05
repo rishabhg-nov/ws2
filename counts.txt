@@ -1,0 +1,8 @@
+lines with 11th column 'N' and 12th column (verified purchase) 'Y':  229345 44402549 262426411
+lines with 11th column 'Y' and 12th column (verified purchase) 'Y':       1     315    1710
+lines with 11th column 'N' and 12th column (verified purchase) 'N': 2876173 505766304 2976270807
+lines with 11th column 'Y' and 12th column (verified purchase) 'N':       1     584    3410
+
+total number of reviews with verified purchase = 229345 + 1 = 229346
+total number of reviews with unverified purchase = 2876173 + 1 = 2876174 
+

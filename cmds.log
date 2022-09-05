@@ -1,0 +1,98 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  histroy > cmds.log
+    3  quit
+    4  git init 
+    5  git remote add origin https://github.com/yourname/mynewrepository.git
+    6  git remote add origin https://github.com/rishabhgupta/ws1.git
+    7  git remote remove origin 
+    8  git remote add origin https://github.com/rishabhgupta/ws1.git
+    9  history > cmds.log
+   10  touch cmds.log
+   11  git status
+   12  git add cmds.log
+   13  git status 
+   14  git remote remove origin 
+   15  git remote  add origin  https://github.com/rishabhg-nov/ws1.git
+   16  git status 
+   17  history > cmds.log
+   18  git status 
+   19  git init 
+   20  history > cmds.log
+   21  git status
+   22  git add cmds.log
+   23  git status
+   24  git init
+   25  git add cmds.log
+   26  git commit -m "first commit"
+   27  git config --global user.email "rishabhg.nov@gmail.com"
+   28  git config --global user.name "Rishabh Gupta"
+   29  Omit --global
+   30  git init
+   31  git add cmds.log
+   32  ls -l
+   33  pwd
+   34  ls -l
+   35  git
+   36  pwd
+   37  ls -l
+   38  more cmds.log
+   39  pwd
+   40  ls -l
+   41  ls -al
+   42  mkdir myProject 
+   43  cd myProject
+   44  git init 
+   45  ls -l
+   46  ls -al
+   47  touch rg.txt 
+   48  ls -l
+   49  git status
+   50  git add rg.txt 
+   51  git status
+   52  git commit -m "rishabh's new file: rg.txt"
+   53  history
+   54  history  > cmds.log 
+   55  git add cmds.log 
+   56  git status
+   57  git commit -m "cmds.log has command history"
+   58  git remote add origin https://github.com/rishabhg-nov/worksheet1.git
+   59  git push -u origin master 
+   60  git pull origin master 
+   61  git log 
+   62  ls -l
+   63  gunzip  amazon_reviews_us_Books_v1_02.tsv.gz
+   64  ls -l
+   65  grep -h "Y" amazon_reviews_us_Books_v1_02.tsv
+   66  grep -h "verified" amazon_reviews_us_Books_v1_02.tsv
+   67  ls -l
+   68  egrep "\tY\t" amazon_reviews_us_Books_v1_02.tsv
+   69  egrep "verified" amazon_reviews_us_Books_v1_02.tsv
+   70  ls -l
+   71  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   72  grep -P '\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+   73  pwd
+   74  mkdir ws2
+   75  ls -l
+   76  cp amazon_reviews_us_Books_v1_02.tsv amazon_reviews_us_Books_v1_02.tsv.bak
+   77  gzip amazon_reviews_us_Books_v1_02.tsv
+   78  ls -ltr
+   79  mv amazon_reviews_us_Books_v1_02.tsv.gz ws2
+   80  ls -ltr
+   81  cd ws2
+   82  ls -ltr
+   83  pwd 
+   84  ls -l
+   85  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+   86  ls -l
+   87  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv |wc > counts.txt
+   88  more counts.txt
+   89  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv |wc >> counts.txt
+   90  more counts.txt
+   91  grep -P '\tN\tN\t' amazon_reviews_us_Books_v1_02.tsv |wc >> counts.txt
+   92  more counts.txt
+   93  grep -P '\tY\tN\t' amazon_reviews_us_Books_v1_02.tsv |wc >> counts.txt
+   94  more counts.txt
+   95  wc -l amazon_reviews_us_Books_v1_02.tsv
+   96  more counts.txt
+   97  vi counts.txt
+   98  history > cmds.log 
