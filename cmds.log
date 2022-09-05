@@ -96,3 +96,19 @@
    96  more counts.txt
    97  vi counts.txt
    98  history > cmds.log 
+   99  more cmds.log
+  100    
+  101  vi counts.txt
+  102  cp counts.txt counts.txt.bak
+  103  vi counts.txt
+  104  pwd
+  105  git init
+  106  git status
+  107  git add cmds.log counts.txt 
+  108  git status 
+  109  git commit -m "worksheet 2 rishabh" 
+  110  git status
+  111  more cmds.log
+  112      history
+  113  git status
+  114  history > cmds.log
